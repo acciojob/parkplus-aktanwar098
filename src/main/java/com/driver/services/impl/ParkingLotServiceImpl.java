@@ -62,6 +62,7 @@ public class ParkingLotServiceImpl implements ParkingLotService {
         Spot spot = null;
         List<Spot> spotList=parkingLot.getSpotList();
         for(Spot spott:spotList){
+
             if(spott.getId()==spotId)
                 spot=spott;
         }
